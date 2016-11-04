@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="khalifa.ahmad.easyfunder">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".userInterface.activities.general.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".userInterface.activities.tabbed.IntroSliderActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".userInterface.activities.tabbed.HomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".userInterface.activities.tabbed.CharityActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".userInterface.activities.forms.BankAccountRegistrationActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".userInterface.activities.forms.SignInActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".userInterface.activities.forms.SignUpActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".userInterface.activities.list.CharitiesListActivity" />
+        <activity
+            android:name=".userInterface.activities.popup.PercentagePopupActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity android:name=".userInterface.activities.general.ReportActivity" />
+        <activity
+            android:name=".userInterface.activities.tabbed.HistoryActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".userInterface.activities.MainActivity" />
+        <activity android:name=".userInterface.activities.list.SpendingCategoriesListActivity"></activity>
+    </application>
+
+</manifest>
