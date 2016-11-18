@@ -22,7 +22,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 new Runnable() {
                     @Override
                     public void run() {
-                        startActivity(SignInActivity.getIntent(SplashScreenActivity.this));
+                        startActivity(IntroSliderActivity.getIntent(SplashScreenActivity.this));
                         finish();
                     }
                 },
