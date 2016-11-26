@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.WindowManager;
 
 import khalifa.ahmad.easyfunder.R;
-import khalifa.ahmad.easyfunder.userInterface.activities.forms.SignInActivity;
+import khalifa.ahmad.easyfunder.userInterface.activities.tabbed.IntroSliderActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
